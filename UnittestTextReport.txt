@@ -1,0 +1,66 @@
+test_teach (auto_login.AutoTest) ... ok
+test_tearDown (auto_login.AutoTest) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 13.278s
+
+OK
+test_teach (auto_login.AutoTest) ... ok
+test_tearDown (auto_login.AutoTest) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 12.982s
+
+OK
+test_teach (auto_login.AutoTest) ... ok
+test_tearDown (auto_login.AutoTest) ... ok
+test_skipFunction (auto_login.AutoTest) ... skipped "I don't want to run this case ,and skip it"
+
+----------------------------------------------------------------------
+Ran 3 tests in 12.071s
+
+OK (skipped=1)
+test_teach (auto_login.AutoTest) ... ERROR
+test_tearDown (auto_login.AutoTest) ... ok
+test_skipFunction (auto_login.AutoTest) ... ok
+
+======================================================================
+ERROR: test_teach (auto_login.AutoTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/apple/appium-test/auto_login.py", line 36, in test_teach
+    self.driver.find_element_by_id("tv_task_name").click()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 341, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 843, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 308, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/appium/webdriver/errorhandler.py", line 29, in check_response
+    raise wde
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 13.357s
+
+FAILED (errors=1)
+ERROR
+
+======================================================================
+ERROR: setUpClass (auto_login.AutoTest)
+----------------------------------------------------------------------
+TypeError: unbound method setUpClass() must be called with AutoTest instance as first argument (got nothing instead)
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+FAILED (errors=1)
+test_teach (auto_login.AutoTest) ... ok
+test_tearDown (auto_login.AutoTest) ... ok
+test_skipFunction (auto_login.AutoTest) ... skipped "I don't want to run this case ,and skip it"
+
+----------------------------------------------------------------------
+Ran 3 tests in 13.622s
+
+OK (skipped=1)

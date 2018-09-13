@@ -1,0 +1,9 @@
+[2018-08-06 11:52:18,121] [DEBUG] Starting new HTTP connection (1): 127.0.0.1
+[2018-08-06 11:52:18,223] [DEBUG] http://127.0.0.1:8888 "POST http://47.98.155.93:8081/orapi/original/pull/overdue HTTP/1.1" 200 121
+[2018-08-06 11:52:18,224] [INFO] 1. 逾期数据拉取 成功, 200, {"code":1000000,"msg":"成功","data":"{\"status\": \"9\", \"orderId\": \"test20180620y8143d\", \"timeOutDay\": \"10\"}"}
+[2018-08-06 11:52:18,226] [DEBUG] Starting new HTTP connection (1): 127.0.0.1
+[2018-08-06 11:52:18,250] [DEBUG] http://127.0.0.1:8888 "POST http://47.97.171.98:8081/s1/delaySwitch/fastSwitchNew HTTP/1.1" 401 15
+[2018-08-06 11:52:18,250] [ERROR] 2 快速领钱开关 失败！！！, [ 401 ], {"code":100003}
+[2018-08-06 11:52:18,253] [DEBUG] Starting new HTTP connection (1): 127.0.0.1
+[2018-08-06 11:52:18,276] [DEBUG] http://127.0.0.1:8888 "POST http://121.196.213.247:8081/s1/bankCard/findBankCard HTTP/1.1" 401 15
+[2018-08-06 11:52:18,278] [ERROR] 3 绑定银行卡 失败！！！, [ 401 ], {"code":100003}
