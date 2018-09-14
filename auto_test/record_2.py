@@ -22,6 +22,8 @@ def flaskPage():
 def test(user):
     return 'Hello %s' % user
 
+def test1():
+    print("this is a test code too")
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1',port='8081')                                                                               #  对接并启动WSGI服务器
