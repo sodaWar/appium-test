@@ -29,7 +29,7 @@ def test2():
     print("i thik life is beautiful")
 
 def test3():
-    print("but life is bad to me")
+    print("but life is bad to me and it bug")
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1',port='8081')                                                                               #  对接并启动WSGI服务器
