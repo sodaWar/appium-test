@@ -34,6 +34,9 @@ def test3():
 def test4():
     print("this is test4 function")
 
+def test5():
+    print("this is test5 function")
+
 if __name__ == '__main__':
     app.run(host='127.0.0.1',port='8081')                                                                               #  对接并启动WSGI服务器
 
